@@ -1,0 +1,42 @@
+
+<link rel="stylesheet" href="css/modal-video.min.css">
+
+    <ul class="navbar-nav align-items-center justify-content-end w-100">
+        <li class="nav-item active mx-3">
+          <!--<a class="nav-link js-modal-btn" data-video-id="768527178">Nosso vídeo</a>-->
+          <a class="nav-link js-modal-btn click menu-video" data-channel="custom" >Nosso vídeo</a>
+        </li>
+
+        <li class="nav-item active mx-3">
+          <a class="nav-link click menu-presentes" data-toggle="modal" data-target="#modalPresentes" >Lista de presentes</a>
+        </li>
+
+        <li class="nav-item active mx-3">
+          <a class="nav-link click menu-cerimonia" href="#cerimonia">Cerimônia Religiosa</a>
+        </li>
+
+        <li class="nav-item  dropdown">
+          <a class="nav-link dropdown-toggle click menu-destaques" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Destaques
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item click menu-dress" href="dresscode" >Dress Code</a>
+            <a class="dropdown-item click menu-padrinhos" href="conheca-padrinhos" >Padrinhos</a>
+            <a class="dropdown-item click menu-fotos" href="fotos" >Fotos</a>
+          </div>
+        </li>
+
+      </ul>
+      
+
+      <script src="script/jquery-modal-video.min.js"></script>
+      <script src="script/modal-video.min.js"></script>
+      <script>
+        /*
+        $(".js-modal-btn").modalVideo({channel:'vimeo'});
+        */
+          $(".js-modal-btn").modalVideo({url:'https://joaoroquesh.github.io/thaisajoao/images/ensaio.mp4'});
+          
+      </script>
+
+     
